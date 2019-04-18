@@ -1,0 +1,93 @@
+
+input {
+    display: block;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid #0080FF;
+    /* border-bottom: 2px solid rgb(48, 169, 224); */
+    width: 300px;
+    height: 50px;
+    font-size: 2em;
+    outline-color: white;
+}
+
+button {
+    background-color: rgb(48, 169, 224);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 5px;
+    cursor: pointer;
+}
+
+.icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+}
+
+.weather-forecast {
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    display: inline-block;
+}
+
+/* Header row */
+
+.location {
+    font-size: 3em;
+    color: #444;
+}
+
+.current {
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.current .visual {
+    width: 50%;
+    float: left;
+}
+
+.current .description {
+    width: 50%;
+    float: left;
+}
+
+.visual .icon {
+    width: 64px;
+    height: 64px;
+}
+
+.temp {
+    font-size: 2.5em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.scale {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 6px;
+    color: #888;
+}
+
+.wind:before {
+    content: "Wind: ";
+    color: #888;
+}
+
+.precip:before {
+    content: "Precipitation: ";
+    color: #888;
+}
+
+.humidity:before {
+    content: "Humidity: ";
+    color: #888;
+}
