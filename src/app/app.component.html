@@ -1,6 +1,6 @@
 
 <div id="textinput">
-  <input type="text" [(ngModel)] = "city" placeholder="City" (keyup.enter)="show5DayWeather()">
+  <input type="text" [(ngModel)] = "city" placeholder="City" (keyup.enter)="show5DayWeather()" (blur)="show5DayWeather()">
 </div>
 <!-- <button (click)="show5DayWeather()">Show Weather</button> -->
 
